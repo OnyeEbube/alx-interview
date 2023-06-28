@@ -3,6 +3,7 @@
 A module that contains the pascal_triangle(n) function
 """
 
+
 def pascal_triangle(n):
     """
     This function returns a list of lists of integers representing
@@ -20,4 +21,3 @@ def pascal_triangle(n):
             row.append(1)
         my_list.append(row)
     return my_list
-
