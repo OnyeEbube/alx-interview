@@ -19,5 +19,5 @@ def canUnlockAll(boxes):
             if key < len(boxes) and key not in unlocked:
                 unlocked.add(key)
                 stack.append(key)
- 
+
     return len(unlocked) == len(boxes)
