@@ -1,12 +1,13 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
-A method that calculates the fewest number of operations needed to result in
-exactly n H characters in the file"""
+A method that calculates the fewest number of operations
+needed to result inexactly n H characters in the file
+"""
 
 
 def minOperations(n):
     """This function calculates the minimum Operation"""
-    if n == i:
+    if n == 1:
         return 0
 
     for i in range(n // 2, 0, -1):
