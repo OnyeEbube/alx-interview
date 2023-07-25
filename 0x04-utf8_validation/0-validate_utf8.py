@@ -10,7 +10,7 @@ def validUTF8(data):
         if num not in range(256):
             return False
     try:
-        data_bytes = bytes(data)
+        data_bytes = bytearray(data)
         data_bytes.decode('utf-8')
         return True
     except UnicodeDecodeError:
